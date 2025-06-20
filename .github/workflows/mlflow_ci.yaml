@@ -25,6 +25,9 @@ jobs:
       - name: Install MLflow
         run: pip install mlflow
 
+      - name: Install imblearn
+        run: pip install imblearn
+
       - name: Run MLflow Project
         run: |
           cd Workflow-CI/MLProject
