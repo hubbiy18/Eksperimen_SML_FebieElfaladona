@@ -28,4 +28,6 @@ jobs:
       - name: Run MLflow Project
         run: |
           cd Workflow-CI/MLProject
-          mlflow run . --no-conda
+          python modelling.py
+        env:
+          MLFLOW_TRACKING_URI: http://127.0.0.1:5000
