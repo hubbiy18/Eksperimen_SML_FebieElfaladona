@@ -1,0 +1,4 @@
+Membangun_model/mlartifacts/
+Membangun_model/mlruns/
+Membangun_model/rf_model_tuned.pkl
+Membangun_model/rf_model.pkl
